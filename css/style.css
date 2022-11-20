@@ -53,6 +53,11 @@ body {
 .icon-redes {
   width: 32px;
 }
+.icon-redes:hover {
+  cursor: pointer;
+  transition: 100ms ease;
+  transform: scale(1.1);
+}
 
 .item-nav {
   text-decoration: none;
@@ -148,6 +153,35 @@ body {
 
 .negrito {
   color: orange;
+}
+
+.cards {
+  margin-top: 8vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 38px;
+  align-items: stretch;
+  justify-content: center;
+  padding-right: 100px;
+  padding-left: 100px;
+  margin-bottom: 40px;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 350px;
+  background: linear-gradient(63.13deg, #334D50, #CBCAA5);
+  border-radius: 30px;
+  padding: 40px;
+  box-shadow: 5px 5px 5px black;
+  border-radius: 10px;
+}
+.card-content .img-skills {
+  width: 65px;
+  height: 65px;
 }
 
 /*# sourceMappingURL=style.css.map */

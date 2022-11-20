@@ -53,6 +53,9 @@ body
     
 .icon-redes
     width: 32px
+    &:hover
+        cursor: pointer
+        @include mixins.animation-nav
 .item-nav
     text-decoration: none
     color: variables.$font-color
@@ -118,3 +121,19 @@ body
 .negrito
     color: variables.$paleta1
   
+.cards
+    @include mixins.div-card-geral
+
+.card-content
+    display: flex
+    flex-direction: column
+    align-items: center
+    width: 350px
+    background: linear-gradient(63.13deg, #334D50, #CBCAA5)
+    border-radius: 30px
+    padding: 40px
+    box-shadow: 5px 5px 5px  black
+    border-radius: 10px
+    .img-skills
+        width: 65px
+        height: 65px
