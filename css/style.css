@@ -51,7 +51,7 @@ body {
 }
 
 .icon-redes {
-  width: 26px;
+  width: 32px;
 }
 
 .item-nav {
@@ -64,8 +64,12 @@ body {
   color: black;
 }
 
+#home {
+  color: orange;
+}
+
 .btn-hello {
-  border: #feff00 solid 2.8px;
+  border: orange solid 2.8px;
   border-radius: 4px;
   padding: 18px;
   margin-top: 8px;
