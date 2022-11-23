@@ -30,6 +30,7 @@ body
     background-color: variables.$black2
     font-family: 'Open Sans', sans-serif
     letter-spacing: 2px
+    @include mixins.bk-style
     
 
 .header
@@ -81,6 +82,7 @@ body
     
 
 .hello
+    
     @include mixins.flex-divide
     gap:300px
     margin-top: 20%
@@ -108,7 +110,7 @@ body
      align-items: center
      padding: 170px
      gap: 120px
-     @include mixins.bk-style
+     
 
 .title-sobre
     width: 160px
@@ -124,16 +126,73 @@ body
 .cards
     @include mixins.div-card-geral
 
-.card-content
-    display: flex
-    flex-direction: column
-    align-items: center
-    width: 350px
-    background: linear-gradient(63.13deg, #334D50, #CBCAA5)
-    border-radius: 30px
-    padding: 40px
-    box-shadow: 5px 5px 5px  black
-    border-radius: 10px
-    .img-skills
-        width: 65px
-        height: 65px
+.img-skills
+    width: 65px
+    height: 65px
+
+
+.skills
+     
+     @include mixins.flex-center
+     
+
+     
+     
+     
+.title-sk
+    margin-top: 200px
+    border-bottom: orange 1px solid
+
+.title-skills
+    margin-top: 40px
+    text-align: center
+   
+#a
+    @include mixins.set-card
+    background-image: linear-gradient(rgba(17, 17, 17, 0.8), rgba(20,20,20,0.8) ),url(/Assets/cards/1.jpg)   
+    @include mixins.bk-card-setup
+    
+#b
+    @include mixins.set-card
+    background-image: linear-gradient(rgba(17, 17, 17, 0.8), rgba(20,20,20,0.8) ),url(/Assets/cards/2.jpg)   
+    @include mixins.bk-card-setup
+
+#c
+    @include mixins.set-card
+    background-image: linear-gradient(rgba(17, 17, 17, 0.8), rgba(20,20,20,0.8) ),url(/Assets/cards/3.jpg)   
+    @include mixins.bk-card-setup
+
+#d
+    @include mixins.set-card
+    background-image: linear-gradient(rgba(17, 17, 17, 0.8), rgba(20,20,20,0.8) ),url(/Assets/cards/4.jpg)   
+    @include mixins.bk-card-setup
+
+#e
+    @include mixins.set-card
+    background-image: linear-gradient(rgba(17, 17, 17, 0.8), rgba(20,20,20,0.8) ),url(/Assets/cards/5.jpg)   
+    @include mixins.bk-card-setup
+
+#f
+    @include mixins.set-card
+    background-image: linear-gradient(rgba(17, 17, 17, 0.8), rgba(20,20,20,0.8) ),url(/Assets/cards/6.png)   
+    @include mixins.bk-card-setup
+
+#g
+    @include mixins.set-card
+    background-image: linear-gradient(rgba(17, 17, 17, 0.8), rgba(20,20,20,0.8) ),url(/Assets/cards/7.jpg)   
+    @include mixins.bk-card-setup
+
+#h
+    @include mixins.set-card
+    background-image: linear-gradient(rgba(17, 17, 17, 0.8), rgba(20,20,20,0.8) ),url(/Assets/cards/8.jpg)   
+    @include mixins.bk-card-setup
+
+#i
+    @include mixins.set-card
+    background-image: linear-gradient(rgba(17, 17, 17, 0.8), rgba(20,20,20,0.8) ),url(/Assets/cards/9.jpg)   
+    @include mixins.bk-card-setup
+
+#j
+    @include mixins.set-card
+    background-image: linear-gradient(rgba(17, 17, 17, 0.8), rgba(20,20,20,0.8) ),url(/Assets/cards/10.jpg)   
+    @include mixins.bk-card-setup
