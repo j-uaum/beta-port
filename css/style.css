@@ -476,8 +476,6 @@ body {
   .sobre {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
   }
   .hello {
     display: flex;
@@ -488,7 +486,6 @@ body {
   .back-img {
     display: flex;
     justify-content: center;
-    align-items: center;
   }
   .paragrafo-sobre {
     width: 80%;
@@ -500,7 +497,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 85%;
+    width: 50%;
   }
 }
 
