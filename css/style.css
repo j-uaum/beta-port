@@ -453,4 +453,15 @@ body {
   margin-bottom: 200px;
 }
 
+@media (390px <= width <= 919px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+  }
+  .header {
+    max-height: 30%;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
