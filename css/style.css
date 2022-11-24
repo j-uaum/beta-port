@@ -14,7 +14,6 @@ html {
 
 ::-webkit-scrollbar-track {
   background: black;
-  border-radius: 30px;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -190,6 +189,11 @@ body {
   text-align: center;
 }
 
+.sub-tit {
+  margin-top: 30px;
+  font-size: 14px;
+}
+
 #a {
   display: flex;
   flex-direction: column;
@@ -338,6 +342,107 @@ body {
   background-image: linear-gradient(rgba(17, 17, 17, 0.8), rgba(20, 20, 20, 0.8)), url(/Assets/cards/10.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
+}
+
+.portfolio-projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.resume {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.resume-img {
+  border-radius: 5px;
+  margin-top: 70px;
+  width: 850px;
+}
+
+.link-download {
+  padding: 40px;
+}
+
+.btn-download {
+  border: orange solid 2.8px;
+  border-radius: 4px;
+  padding: 18px;
+  margin-top: 8px;
+  background-color: rgba(28, 28, 29, 0.6);
+  color: whitesmoke;
+  width: 120px;
+  height: 50px;
+  font-weight: 700;
+  text-align: center;
+  border-radius: 10px;
+}
+.btn-download:hover {
+  transition: 100ms ease;
+  transform: scale(1.1);
+  border: rgba(28, 28, 29, 0.6) solid 2.8px;
+  background-color: orange;
+  color: #000;
+  cursor: pointer;
+}
+
+.card-content {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: justify;
+  width: 350px;
+  border-radius: 30px;
+  padding: 40px;
+  box-shadow: 5px 5px 5px black;
+  border-radius: 10px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 200px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #1c1d1a;
+  padding: 40px;
+}
+
+.head-foo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.menu-foo {
+  display: flex;
+  flex-direction: column;
+}
+
+.p-info {
+  margin-top: 5px;
+  width: 240px;
+  text-align: justify;
+}
+
+.title-foo {
+  margin-bottom: 5px;
+}
+
+.start {
+  text-decoration: none;
+  color: orange;
 }
 
 /*# sourceMappingURL=style.css.map */
