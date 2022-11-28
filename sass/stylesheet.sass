@@ -273,96 +273,105 @@ body
 
 
 @media (373px <= width <= 919px)
-    body
+   
+   
+ body
+     color: variables.$font-color
+     background-color: variables.$black2
+     font-family: 'Open Sans', sans-serif
+     background-image: linear-gradient(rgba(17, 17, 17, 0.4), rgba(20,20,20,0.5) ),url(/Assets/bk.jpg)   
+     background-size: 350%
+     background-repeat: no-repeat
+     letter-spacing: 2px
+     display: flex
+     flex-direction: column 
+     justify-content: center
+     align-items: center
+     margin-left: 7%
+     
+     
+     
+       
+     .container
+         display: flex
+         flex-direction: column
+         justify-content: center
+         align-items: center
+         background-image: none
+         background-repeat: no-repeat
+         width: 70%
+         text-align: center
+         
+         
         
-        
-        color: variables.$font-color
-        background-color: variables.$black2
-        font-family: 'Open Sans', sans-serif
-        background-image: linear-gradient(rgba(17, 17, 17, 0.4), rgba(20,20,20,0.5) ),url(/Assets/bk.jpg)   
-        background-size: 350%
-        background-repeat: no-repeat
-        letter-spacing: 2px
-        display: flex
-        flex-direction: column 
-        justify-content: center
-        align-items: center
-
-    .container
-        display: flex
-        flex-direction: column
-        justify-content: center
-        align-items: center
-        background-image: none
-        background-repeat: no-repeat
-        width: calc( 100% - 30% )
        
         
 
-    .sobre
-         display: flex
-         flex-direction: column
-         gap: 10px
-         padding: 50px
-        
+     .sobre
+          display: flex
+          flex-direction: column
+          gap: 10px
+          padding: 50px
+          width: 98%
+          
+          
+     .sub-tit   
+        width: 50%       
+                    
+                    
 
 
-    .hello
+     .hello
          display: flex
          flex-direction: column
          justify-content: center
          align-items: center
          margin-bottom: 500px
          gap: 100px
-         
+                    
 
-    .back-img
-        
+     .back-img
+                    
          display: flex
          justify-content: center
-         
-    .foto-principal
+                    
+            
+     .foto-principal
          display: none
-        
-      
-        
+                    
 
-    .paragrafo-sobre
-        width: 100%
-        
-       
-
-    .cards
+     .cards
          display: flex
          justify-content: center
          align-items: center
          width: 50%
-        
-    .resume
+                    
+     .resume
          display: flex
          justify-content: center
          align-items: center
-        
+                    
 
-    .resume-img
-        width: 99.999%
+     .resume-img
+          width: 99.999%
 
-    #none
-        display: none
+                
+     #none
+         display: hideen
 
-    .footer
-        gap: 50px
-        display: flex
-        flex-direction: column
-        justify-content: center
-        align-items: center
+     .footer
+         gap: 50px
+         display: flex
+         flex-direction: column
+         justify-content: center
+         align-items: center
 
 
-    .head-foo
-        width: 98%
+     .head-foo
+         width: 98%
 
-    .info-foo
-        width:98%
+     .info-foo
+         width:98%
         
 
     

@@ -466,8 +466,9 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-left: 7%;
   }
-  .container {
+  body .container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -475,14 +476,19 @@ body {
     background-image: none;
     background-repeat: no-repeat;
     width: 70%;
+    text-align: center;
   }
-  .sobre {
+  body .sobre {
     display: flex;
     flex-direction: column;
     gap: 10px;
     padding: 50px;
+    width: 98%;
   }
-  .hello {
+  body .sub-tit {
+    width: 50%;
+  }
+  body .hello {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -490,44 +496,41 @@ body {
     margin-bottom: 500px;
     gap: 100px;
   }
-  .back-img {
+  body .back-img {
     display: flex;
     justify-content: center;
   }
-  .foto-principal {
+  body .foto-principal {
     display: none;
   }
-  .paragrafo-sobre {
-    width: 100%;
-  }
-  .cards {
+  body .cards {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 50%;
   }
-  .resume {
+  body .resume {
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  .resume-img {
+  body .resume-img {
     width: 99.999%;
   }
-  .none {
-    display: none;
+  body #none {
+    display: hideen;
   }
-  .footer {
+  body .footer {
     gap: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-  .head-foo {
+  body .head-foo {
     width: 98%;
   }
-  .info-foo {
+  body .info-foo {
     width: 98%;
   }
 }
