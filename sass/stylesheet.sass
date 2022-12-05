@@ -9,7 +9,7 @@ html
     scroll-behavior: smooth
 
 ::-webkit-scrollbar 
-  width: 10px
+  width: 0.625rem
 
 
 ::-webkit-scrollbar-track
@@ -21,7 +21,7 @@ html
   background-color: variables.$periwinkle-gray
   background-size: 100% 100%
   animation: cores 30s ease infinite
-  border-radius: 25px
+  border-radius: 1.563rem
 
 body
     width: 100%
@@ -29,7 +29,7 @@ body
     color: variables.$font-color
     background-color: variables.$black2
     font-family: 'Open Sans', sans-serif
-    letter-spacing: 2px
+    letter-spacing: 0.125rem
     @include mixins.bk-style
     
 
@@ -41,7 +41,7 @@ body
     width: 100%
     @include mixins.bk-img
     @include mixins.bk-setup
-    padding: 7px
+    padding: 0.438rem
     position: fixed
     
    
@@ -50,18 +50,18 @@ body
 
 
 .nav-img
-    width: 70px
+    width: 4.375rem
     
 .icon-redes
-    width: 32px
+    width: 2rem
     &:hover
         cursor: pointer
         @include mixins.animation-nav
 .item-nav
     text-decoration: none
     color: variables.$font-color
-    gap: 150px
-    padding: 15px
+    gap: 9.375rem
+    padding: 0.938rem
 
     &:hover
          color: black
@@ -84,9 +84,9 @@ body
 .hello
     
     @include mixins.flex-divide
-    gap:300px
+    gap: 18.75rem
     margin-top: 20%
-    margin-bottom: 600px
+    margin-bottom: 37.5rem
     
     
     
@@ -94,30 +94,30 @@ body
      font-size: variables.$font-title
      .hello-title
         
-        border-bottom: orange 1px solid
+        border-bottom: orange 0.063rem solid
      
 .black-area
     @include mixins.flex-center
-    gap: 30px 
+    gap: 1.875rem 
 
 .foto-principal
-    border-radius: 10px
-    width: 420px
+    border-radius: 0.625rem
+    width: 26.25rem
 
 .sobre
      @include mixins.flex-divide
      justify-content: center
      align-items: center
-     padding: 170px
-     gap: 120px
+     padding: 10.625rem
+     gap: 7.5rem
      
 
 .title-sobre
-    width: 160px
-    border-bottom: orange 1px solid
+    width: 10rem
+    border-bottom: orange 0.063rem solid
     
 .p-texto
-    margin-top: 25px
+    margin-top: 1.563rem
     text-align: justify
 
 .negrito
@@ -127,8 +127,8 @@ body
     @include mixins.div-card-geral
 
 .img-skills
-    width: 65px
-    height: 65px
+    width: 4.063rem
+    height: 4.063rem
 
 
 .skills
@@ -140,16 +140,16 @@ body
      
      
 .title-sk
-    margin-top: 200px
-    border-bottom: orange 1px solid
+    margin-top: 12.5rem
+    border-bottom: orange 0.063rem solid
 
 .title-skills
-    margin-top: 40px
+    margin-top: 2.5rem
     text-align: center
 
 .sub-tit
-    margin-top: 30px
-    font-size: 14px
+    margin-top: 1.875rem
+    font-size: 0.875rem
    
 #a
     @include mixins.set-card
@@ -210,39 +210,39 @@ body
     @include mixins.flex-center
 
 .resume-img
-    border-radius: 5px
-    margin-top: 70px
-    width: 850px
+    border-radius: 0.313rem
+    margin-top: 4.375rem
+    width: 53.125rem
 
 .link-download
-    padding: 40px 
+    padding: 2.5rem
 
 .btn-download
      @include mixins.btn-style
-     width: 120px
-     height: 50px
+     width: 7.5rem
+     height: 3.125rem
      font-weight: 700
      text-align: center
-     border-radius: 10px
+     border-radius: 0.625rem
      &:hover
         @include mixins.animation-btn
         cursor: pointer
 
 
 .card-content
-    margin-top: 40px
+    margin-top: 2.5rem
     @include mixins.set-card
 
 .contact
     @include mixins.flex-center
-    margin-bottom: 200px
+    margin-bottom: 12.5rem
 
 .footer
     display: flex
     flex-direction: row
     justify-content: space-around
     background-color: variables.$black2
-    padding: 40px
+    padding: 2.5rem
     
 
 .head-foo
@@ -255,12 +255,12 @@ body
     flex-direction: column
 
 .p-info
-    margin-top: 5px
-    width: 240px
+    margin-top: 0.313rem
+    width: 15rem
     text-align: justify
 
 .title-foo
-    margin-bottom: 5px
+    margin-bottom: 0.313rem
 
 .start
     text-decoration: none
@@ -269,7 +269,7 @@ body
 
 .diary
      @include mixins.flex-center
-     margin-bottom: 200px
+     margin-bottom: 12.5rem
 
 
 @media (373px <= width <= 919px)
@@ -282,12 +282,13 @@ body
      background-image: linear-gradient(rgba(17, 17, 17, 0.4), rgba(20,20,20,0.5) ),url(/Assets/bk.jpg)   
      background-size: 350%
      background-repeat: no-repeat
-     letter-spacing: 2px
+     letter-spacing: 0.125rem
      display: flex
      flex-direction: column 
      justify-content: center
      align-items: center
      margin-left: 7%
+     max-width: 80%
      
      
      
@@ -310,8 +311,8 @@ body
      .sobre
           display: flex
           flex-direction: column
-          gap: 10px
-          padding: 50px
+          gap: 0.625rem
+          padding: 3.125rem
           width: 98%
           
           
@@ -326,9 +327,9 @@ body
          flex-direction: column
          justify-content: center
          align-items: center
-         margin-bottom: 500px
-         gap: 100px
-                    
+         margin-bottom: 31.25rem
+         gap: 6.25rem
+         
 
      .back-img
                     
@@ -360,7 +361,7 @@ body
          display: hideen
 
      .footer
-         gap: 50px
+         gap: 3.125rem
          display: flex
          flex-direction: column
          justify-content: center
